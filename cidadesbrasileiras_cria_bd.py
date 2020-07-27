@@ -79,7 +79,7 @@ def executeScriptsFromFile(comandsfilename,dbcursor):
 		print("falhas : "+str(error))
 
 
-print("iniciando\n")
+print("Iniciando...\n")
 # connect_db.py
 print("conectando bd\n")
 conn = sqlite3.connect('cidadesbrasileiras.db')
